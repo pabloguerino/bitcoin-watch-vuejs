@@ -8,7 +8,7 @@
     <div class="disclamer">
       This data was produced from the CoinDesk Bitcoin Price Index (USD).
       <br>
-      <a href="https://github.com/pabloguerino">Vue.js test project by Pablo Guerino</a>
+      <a href="https://github.com/pabloguerino/bitcoin-watch-vuejs">Vue.js test project by Pablo Guerino</a>
       <br>
       MIT License
     </div>
