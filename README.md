@@ -1,6 +1,6 @@
 # bitcoin-watch-vuejs
 
-> A Vue.js test project
+> Vue.js test project based on coindesk API Edit
 
 ## Build Setup
 

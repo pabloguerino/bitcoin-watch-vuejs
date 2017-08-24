@@ -26,10 +26,6 @@
       lastPrice,
       history
     },
-
-    data () {
-      return {}
-    }
   }
 </script>
 

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import Chart from 'chart.js'
+  import Chart from 'chart.js';
 
   export default {
 
@@ -18,7 +18,7 @@
 
     methods: {
       drawGraph() {
-        let ctx = document.getElementById("history").getContext('2d');
+        let ctx = document.getElementById('history').getContext('2d');
         this.chart = new Chart(ctx, {
           type: 'line',
           data: {
