@@ -10,7 +10,7 @@
   export default {
 
     mounted() {
-      window.Bitcoin.fetchHistory((data) => {
+      this.$bitcoin.fetchHistory((data) => {
         this.data = data;
         this.drawGraph();
       });

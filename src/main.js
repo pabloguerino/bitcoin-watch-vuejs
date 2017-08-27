@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import Bitcoin from './Bitcoin.js';
 
-window.Bitcoin = Bitcoin;
+Vue.prototype.$bitcoin = Bitcoin;
 
 new Vue({
   el: '#app',

@@ -18,9 +18,8 @@
 
     methods: {
       updatePrice() {
-        window.Bitcoin.fetchPrice((price) => {
+        this.$bitcoin.fetchPrice((price) => {
           this.lastPrice = price;
-          console.log('[DEBUG] Price updated', this.lastPrice);
         });
       }
     },
